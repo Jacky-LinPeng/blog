@@ -2,5 +2,10 @@
   <h1>¼ò½é</h1>
   <p>{{ site.user_description }}</p>
   
+  { % for ar in site.article % }
+    <h1>{{ ar }}</h2>
+		<p>{{ ar }}</p>
+
+{ % endfor % }
 </div>
 
